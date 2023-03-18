@@ -9,7 +9,7 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }}>
-        <Text>Howdy</Text>
+        <Text style={styles.anDgJDfo}>Howdy</Text>
       </ScrollView>
     </SafeAreaView>;
 };
@@ -17,6 +17,11 @@ const Untitled1 = () => {
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  anDgJDfo: {
+    position: "absolute",
+    top: 278,
+    left: 156.5
   }
 });
 export default Untitled1;
